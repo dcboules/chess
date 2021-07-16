@@ -1,0 +1,133 @@
+{
+   <SDL_Suppression_addr2>
+   Memcheck:Addr2
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.10.0
+}
+{
+   <SDL_Suppression_addr4>
+   Memcheck:Addr4
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.10.0
+}
+{
+   <SDL_Suppression_addr8>
+   Memcheck:Addr8
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.10.0
+}
+{
+   <SDL_Suppression_leak>
+   Memcheck:Leak
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.10.0
+}
+{
+   <SDL_Suppression_cond>
+   Memcheck:Cond
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.10.0
+}
+{
+   <Iris_Suppression_addr1>
+   Memcheck:Addr1
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/dri/iris_dri.so
+}
+{
+   <Iris_Suppression_addr4>
+   Memcheck:Addr4
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/dri/iris_dri.so
+}
+{
+   <Iris_Suppression_addr8>
+   Memcheck:Addr8
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/dri/iris_dri.so
+}
+{
+   <Iris_Suppression_leak>
+   Memcheck:Leak
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/dri/iris_dri.so
+}
+{
+   <DLOpen_Suppression_leak>
+   Memcheck:Leak
+   ...
+   fun:_dl_open
+}
+{
+   <DLClose_Suppression_leak>
+   Memcheck:Leak
+   ...
+   fun:_dl_close
+}
+{
+   <libx11_suppression_leak>
+   Memcheck:Leak
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+}
+{
+   <pulseaudio_leak>
+   Memcheck:Leak
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libpulse.so.0.21.2
+}
+{
+   <libdbus leak>
+   Memcheck:Leak
+   ...
+   obj:/lib/x86_64-linux-gnu/libdbus-1.so.3.19.11
+}
+{
+   <libllvm leak>
+   Memcheck:Leak
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libLLVM-10.so.1
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.6400.3
+}
+
+#------------------------
+# We added these :))
+#---------------------
+#
+{
+   idek_what_libglx_is
+   Memcheck:Leak
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libGLX_mesa.so.0.0.0
+}
+#this is my vmware graphics being dumb
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/dri/vmwgfx_dri.so
+}
+#
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libLLVM-11.so.1
+}
+{
+   <insert_a_suppression_name_here>
+   Memcheck:Leak
+   ...
+   obj:/usr/lib/x86_64-linux-gnu/libdbus-1.so.3.19.11
+}
